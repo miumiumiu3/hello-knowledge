@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style2.css" />
+        <meta charset="UTF-8">
+        <title>web前端开发</title>
+    </head>
+    <body>
+       <div align="center>
+          <table border="1">
+             <tr>
+                  <tr><h1>star top10</h1></tr>
+             </tr> 
+             <tr>
+                 <tr>有序列表
+                    <ol>
+                       <li><a href="#">big bang</a></li>
+                       <li><a href="#">东方神起</a></li>
+                       <li><a href="#">少女时代</a></li>
+                       <li><a href="#">时代少年团</a></li>
+                       <li><a href="#">活死人</a></li>
+                    </ol>
+                    无序列表
+                    <ul class="inside">
+                       <li><a href="#">big bang</a></li>
+                       <li><a href="#">东方神起</a></li>
+                       <li><a href="#">少女时代</a></li>
+                       <li><a href="#">时代少年团</a></li>
+                       <li><a href="#">活死人</a></li>
+                    </ul>
+                 </tr>
+             </tr>
+          </table>
+       </div>
+       <hr>
+       <form class="one">
+           账户：<input type="text" name="userName" />
+           <br />
+           <br />
+           密码：<input type="password" name="userPsd" />
+           <br />
+           <br />
+           <input type="submit" value="确定" name="SubmitButton" />
+           <input type="reset" value="重置" name="ResetButton" />
+       </form> 
+       <form class="two">
+           性别：
+           男   <input type="radio" value="boy" name="gender" checked="checked"/>
+           女   <input type="radio" value="girl" name="gender"/>
+           <br />
+           爱好：
+           <input type="checkbox" value="1" name="music" checked="checked"/>音乐
+           <input type="checkbox" value="2" name="sport" />运动
+           <input type="checkbox" value="3" name="read" />阅读           
+       </form>
+       <form class="three">
+          <select>
+             <option selected="selected">选项1</option>
+             </option>选项2</option>
+          </select>        
+       </form>   
+       <form class="four">
+          个人简介：
+          <br />
+          <textarea rows="10" cols="50">在这里输入内容...</textarea>
+          <br />
+          <input type="submit" value="确定" name="submitBtn" />
+          <input type="reset"  value="重置" name="resetBrn" />    
+       </form>  
+       <p>
+          对于一段文字，其中有一些是要用斜体强调的，比如<em>Gone with the Wind</em>
+          <br />
+          同时也有一些是需要用粗体重点强调的，如它的中文译名是<strong>飘</strong>
+       </p>
+       <form class="three">
+          下面是一个自定义列表
+          <dl>
+              <dt>HTML</dt>
+              <dd>超文本标记语言</dd>
+              <dt>CSS</dt>
+              <dd>层叠样式表</dd>
+          </dl>
+        <div id="box">
+              内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容人内容内容内容内容内容内容内容内容你人呢柔软内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容没人没人没人没人内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+        </div>
+    </body>
+</html>
